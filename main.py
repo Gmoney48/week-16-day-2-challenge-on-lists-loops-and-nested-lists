@@ -36,7 +36,7 @@ supply_list = [names, item, amount]
 # - Identify the **first student’s name**
 print(supply_list[0][0])
 # - Identify the **last student’s requested item only**
-print(supply_list[1][2])
+# print(supply_list[1][2])
 # ---
 
 # ### 3. Quantity Extraction
@@ -58,7 +58,9 @@ else:
 
 # ### 5. Quantity Organization
 # Re-organize the quantity list from **smallest to largest** and display the final result.
-
+amount = [12,3,24]
+amount.sort()
+print(my_list)
 # ---
 
 # ## Challenge Extension: Classroom Storage Grid
